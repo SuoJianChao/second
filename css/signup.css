@@ -1,0 +1,72 @@
+/* 固定头部 */
+.lt-header{
+  height: 44px;
+  background-color: #046691;
+  text-align: center;
+  line-height: 44px;
+  /* padding: 7px 0px; */
+}
+.lt-header a#info{
+  color: #fff;
+}
+.lt-header a#info:last-child{
+  display: none;
+}
+.lt-header h1.mui-title{
+  color: #fff;
+}
+.lt-header p{
+  width: 100%;
+  height: 44px;
+  line-height: 44px;
+  padding: 0px 42px;
+  margin: 0px;
+  color: #fff;
+  font-size: 20px;
+  box-sizing: border-box;
+}
+/* 固定底部 */
+.lt-footer {
+  height: 50px;
+  background-color: #046691;
+}
+.lt-footer .mui-tab-item span{
+  font-size: 14px;
+  color: #fff;
+}
+.lt-footer .mui-tab-item span:first-child{
+  font-size: 18px;
+}
+.lt-footer .mui-tab-item span:last-child{
+  display: block;
+}
+.lt-footer .mui-tab-item.active span{
+  color:#ff8207 ;
+}
+
+/* 中间内容 */
+button.mui-btn-block{
+	font-size: 14px;
+	padding: 8px 0px;
+}
+.mui-content .signup .sign input[type=text]{
+	width: 60%;
+	margin-right: 10px;
+}
+.mui-content .signup .sign input[type=submit] {
+	position: absolute;
+	right: 0px;
+	width: 35%;
+    font-size: 14px;
+    padding: 9px 16px;
+}
+.mui-content .signup input[type=checkbox]+a{
+  font-size: 12px;
+  color: #000;
+  vertical-align: top;
+  /* display: inline-block; */
+}
+.mui-content .signup a:last-child{
+  float: right;
+  font-size: 12px;
+}

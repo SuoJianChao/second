@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta content="IE=edge" http-equiv="X-UA-Compatible">
+        <meta content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0" name="viewport">
+        <title>乐淘</title>
+        
+        <link href="css/mui.min.css" rel="stylesheet">
+        <link href="./css/classify.css" rel="stylesheet">
+        <link href="css/font-awesome.css" rel="stylesheet">
+    </head>
+    <body>
+        <!-- 顶部 -->
+        <header class="mui-bar mui-bar-nav lt-header">
+            <a class="mui-icon mui-icon-bars mui-pull-left mui-plus-visible">
+            </a>
+            <a class="mui-icon fa fa-arrow-left mui-icon-info-filled mui-pull-left" id="info">
+            </a>
+            <a class="mui-icon fa fa-search mui-icon-info-filled mui-pull-right" id="info">
+            </a>
+            <input type="text">
+        </header>
+        <!-- 底部 -->
+        <nav class="mui-bar lt-footer mui-bar-tab">
+            <a class="mui-tab-item" href="#tabbar">
+                <span class="fa fa-home ">
+                </span>
+                <span class="mui-tab-label">
+                    首页
+                </span>
+            </a>
+            <a class="mui-tab-item active" href="#tabbar-with-chat">
+                <span class="fa fa-bars ">
+                </span>
+                <span class="mui-tab-label">
+                    分类
+                </span>
+            </a>
+            <a class="mui-tab-item" href="#tabbar-with-contact">
+                <span class="fa fa-shopping-cart ">
+                </span>
+                <span class="mui-tab-label">
+                    购物车
+                </span>
+            </a>
+            <a class="mui-tab-item" href="#tabbar-with-map">
+                <span class="fa fa-user">
+                </span>
+                <span class="mui-tab-label">
+                    会员中心
+                </span>
+            </a>
+        </nav>
+
+
+        <!-- 中间部分内容 -->
+        <div class="mui-content left-side mui-row mui-fullscreen">
+            <div class="mui-col-xs-3">
+                <div class="mui-segmented-control mui-segmented-control-inverted mui-segmented-control-vertical tab" id="segmentedControls">
+                    <a class="mui-control-item mui-active" href="#content1">
+                        运动馆
+                    </a>    
+                    <a class="mui-control-item" href="#content2">
+                        女士馆
+                    </a>
+                    <a class="mui-control-item" href="#content3">
+                        男士馆
+                    </a>
+                    <a class="mui-control-item" href="#content4">
+                        帆布馆
+                    </a>
+                    <a class="mui-control-item" href="#content5">
+                        户外馆
+                    </a>
+                </div>
+            </div>
+            <div class="mui-col-xs-9" id="segmentedControlContents" >
+                <div class="mui-control-content sport mui-active" id="content1">
+                    <ul class="mui-table-view" id="sportlist">
+                        <li class="mui-col-xs-4">
+                            <a href="javascript:;">
+                                <img src="images/brand1.png" alt="">
+                                <span>耐克</span>
+                            </a>
+                        </li>
+                        <li class="mui-col-xs-4">
+                            <a href="javascript:;">
+                                <img src="images/brand2.png" alt="">
+                                <span>阿迪</span>
+                            </a>
+                        </li>
+                        <li class="mui-col-xs-4">
+                            <a href="javascript:;">
+                                <img src="images/brand3.png" alt="">
+                                <span>新百伦</span>
+                            </a>
+                        </li>
+                        <li class="mui-col-xs-4">
+                            <a href="javascript:;">
+                                <img src="images/brand4.png" alt="">
+                                <span>哥伦比亚</span>
+                            </a>
+                        </li>
+                        <li class="mui-col-xs-4">
+                            <a href="javascript:;">
+                                <img src="images/brand5.png" alt="">
+                                <span>匡威</span>
+                            </a>
+                        </li>
+                        <li class="mui-col-xs-4"></li>
+                    </ul>
+                    
+                </div>
+                <div class="mui-control-content" id="content2">
+                    <ul class="mui-table-view">
+                        <li class="mui-table-view-cell">
+                            第2个选项卡子项-1
+                        </li>
+                        <li class="mui-table-view-cell">
+                            第2个选项卡子项-2
+                        </li>
+                        <li class="mui-table-view-cell">
+                            第2个选项卡子项-3
+                        </li>
+                        <li class="mui-table-view-cell">
+                            第2个选项卡子项-4
+                        </li>
+                        <li class="mui-table-view-cell">
+                            第2个选项卡子项-5
+                        </li>
+                    </ul>
+                </div>
+                <div class="mui-control-content" id="content3">
+                    <ul class="mui-table-view">
+                        <li class="mui-table-view-cell">
+                            第3个选项卡子项-1
+                        </li>
+                        <li class="mui-table-view-cell">
+                            第3个选项卡子项-2
+                        </li>
+                        <li class="mui-table-view-cell">
+                            第3个选项卡子项-3
+                        </li>
+                        <li class="mui-table-view-cell">
+                            第3个选项卡子项-4
+                        </li>
+                        <li class="mui-table-view-cell">
+                            第3个选项卡子项-5
+                        </li>
+                    </ul>
+                </div>
+                <div class="mui-control-content" id="content4">
+                    <ul class="mui-table-view">
+                        <li class="mui-table-view-cell">
+                            第4个选项卡子项-1
+                        </li>
+                        <li class="mui-table-view-cell">
+                            第4个选项卡子项-2
+                        </li>
+                        <li class="mui-table-view-cell">
+                            第4个选项卡子项-3
+                        </li>
+                        <li class="mui-table-view-cell">
+                            第4个选项卡子项-4
+                        </li>
+                        <li class="mui-table-view-cell">
+                            第4个选项卡子项-5
+                        </li>
+                    </ul>
+                </div>
+                <div class="mui-control-content" id="content5">
+                    <ul class="mui-table-view">
+                        <li class="mui-table-view-cell">
+                            第5个选项卡子项-1
+                        </li>
+                        <li class="mui-table-view-cell">
+                            第5个选项卡子项-2
+                        </li>
+                        <li class="mui-table-view-cell">
+                            第5个选项卡子项-3
+                        </li>
+                        <li class="mui-table-view-cell">
+                            第5个选项卡子项-4
+                        </li>
+                        <li class="mui-table-view-cell">
+                            第5个选项卡子项-5
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+
+
+
+        <script src="js/mui.js">
+        </script>
+        <script src="js/index.js">
+        </script>
+    </body>
+</html>

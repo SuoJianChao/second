@@ -1,0 +1,86 @@
+/* 固定头部 */
+.lt-header{
+  height: 44px;
+  background-color: #046691;
+  text-align: center;
+  line-height: 44px;
+  /* padding: 7px 0px; */
+}
+.lt-header a#info{
+  color: #fff;
+  /* position: absolute; */
+}
+.lt-header h1.mui-title{
+  color: #fff;
+}
+.lt-header input{
+  width: 80%;
+  height: 30px;
+  padding: 0px 42px;
+  margin: 0px;
+  /* box-sizing: border-box; */
+}
+/* 固定底部 */
+.lt-footer {
+  height: 50px;
+  background-color: #046691;
+}
+.lt-footer .mui-tab-item span{
+  font-size: 14px;
+  color: #fff;
+}
+.lt-footer .mui-tab-item span:first-child{
+  font-size: 18px;
+}
+.lt-footer .mui-tab-item span:last-child{
+  display: block;
+}
+.lt-footer .mui-tab-item.active span{
+  color:#ff8207 ;
+}
+
+/* 中间内容 */
+/* ul外边的父盒子 */
+.mui-bar-nav~.mui-content{
+	padding-top: 56px;
+}
+.mui-content.left-side.mui-row{
+  width: 100%;
+}
+.mui-segmented-control.mui-segmented-control-inverted .mui-control-item.mui-active{
+	color: #000;
+}
+
+.mui-segmented-control.tab a {
+  width: 100%;
+  background-color: #fff;
+}
+.mui-control-content.mui-table-view{
+	width: 75%;
+}
+
+.mui-col-xs-9{
+	padding-left: 10px;
+}
+.sport #sportlist.mui-table-view>.mui-col-xs-4{
+	display: inline-block;
+	margin: 0px;
+	width: 30%;
+	text-align: center;
+	overflow: hidden;
+}
+.sport #sportlist.mui-table-view>.mui-col-xs-4>a{
+	text-align: center;
+	display:inline-block;
+	width:100%;
+
+}
+.sport #sportlist.mui-table-view>.mui-col-xs-4>a img{
+	/* dis.sport #sportlist .mui-col-xs-4play:inline-block; */
+	width: 100%;
+	/* vertical-align: middle; */
+}
+#sportlist>.mui-col-xs-4 a span{
+	display: inline-block;
+	font-size: 12px;
+}
